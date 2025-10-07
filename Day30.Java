@@ -4,7 +4,7 @@ public class Coding100day {
         int a = 5;
         int b = 8;
 
-        System.out.println("a < b : " + (a < b)); // true karena 5 lebih kecil dari 8
-        System.out.println("a > b : " + (a > b)); // false karena 5 tidak lebih besar dari 8    
+        System.out.println("a < b : " + (a <= b));
+        System.out.println("a > b : " + (a >= b));   
     }
 }
